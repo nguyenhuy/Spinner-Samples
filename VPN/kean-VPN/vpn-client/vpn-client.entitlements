@@ -8,7 +8,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.github.kean.vpn-client</string>
+		<string>group.dev.huynguyen.vpn-client</string>
 	</array>
 </dict>
 </plist>

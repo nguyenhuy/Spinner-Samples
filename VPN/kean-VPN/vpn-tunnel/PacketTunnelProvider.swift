@@ -192,10 +192,10 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
                     try MessageEncoder.encode(
                         header: Header(code: .data),
                         body: $0.data,
-                        key: key
+                        key: self.key
                     )
                 }
-                self.session.writeMultipleDatagrams(datagrams) { error in
+                self.udpSession.writeMultipleDatagrams(datagrams) { error in
                     // TODO: Handle errors
                 }
             } catch {

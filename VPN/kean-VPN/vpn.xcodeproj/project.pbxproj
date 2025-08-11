@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -641,14 +641,14 @@
 				CODE_SIGN_ENTITLEMENTS = "vpn-client/vpn-client.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"vpn-client/Preview Content\"";
-				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				DEVELOPMENT_TEAM = XWFPATR22G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "vpn-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.kean.vpn-client";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.huynguyen.vpn-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -663,14 +663,14 @@
 				CODE_SIGN_ENTITLEMENTS = "vpn-client/vpn-client.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"vpn-client/Preview Content\"";
-				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				DEVELOPMENT_TEAM = XWFPATR22G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "vpn-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.kean.vpn-client";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.huynguyen.vpn-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -682,14 +682,14 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "vpn-tunnel/vpn_tunnel.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				DEVELOPMENT_TEAM = XWFPATR22G;
 				INFOPLIST_FILE = "vpn-tunnel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.kean.vpn-client.vpn-tunnel";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.huynguyen.vpn-client.vpn-tunnel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -702,14 +702,14 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "vpn-tunnel/vpn_tunnel.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				DEVELOPMENT_TEAM = XWFPATR22G;
 				INFOPLIST_FILE = "vpn-tunnel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.kean.vpn-client.vpn-tunnel";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.huynguyen.vpn-client.vpn-tunnel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
