@@ -81,7 +81,7 @@ let arg2 = arguments.dropFirst().dropFirst().first
 
 #warning("TEMP:")
 //let defaultHost = "::1"
-let defaultHost = "192.168.0.13"
+let defaultHost = "192.168.1.62"
 let defaultPort = 9999
 
 enum BindTo {

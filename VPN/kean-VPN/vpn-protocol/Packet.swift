@@ -76,7 +76,7 @@ public enum MessageEncoder {
         data.append(header.code.rawValue)
 
         // Body
-        let body = try Cipher.encrypt(body, key: key)
+//        let body = try Cipher.encrypt(body, key: key)
         data.append(body)
 
         return data
@@ -86,7 +86,7 @@ public enum MessageEncoder {
 public enum MessageDecoder {
     /// Decrypts and decodes the body of the given datagram.
     public static func decode<T: Decodable>(_ type: T.Type, datagram: Data, key: SymmetricKey) throws -> T {
-        let data = try Cipher.decrypt(datagram[Header.length...], key: key)
+        let data = datagram[Header.length...]
         return try JSONDecoder().decode(type, from: data)
     }
 }
