@@ -19,6 +19,7 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "AsyncHTTPClient", package: "async-http-client"),
                 .product(name: "Hummingbird", package: "hummingbird"),
+                .product(name: "HummingbirdHTTP2", package: "hummingbird"),
                 .product(name: "NIOExtras", package: "swift-nio-extras"),
             ],
             swiftSettings: [
